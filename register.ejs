@@ -1,0 +1,21 @@
+<%- include('header') -%>
+
+<div class="text-center center-div mt-5">
+<div class="container w-25   mt-5 border">
+    <h3>Welcome to Express Register Window</h3>
+    <br>
+    <form  action="/register" method="POST" class="pt-3">
+        <div class="form-group">
+            <input type="email" class="form-control" placeholder="email" name="email">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="password">
+        </div>
+        <button type="submit" class="btn btn-success rounded-pill"><a href="/route/logout">Register</button></a>
+        
+    </form>
+</div>
+</div>
+
+
+<%- include('footer') -%>
